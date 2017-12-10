@@ -1,0 +1,5 @@
+v2.0 raw
+510001 # MOVI R1, 0x1  load 1 into R1
+520002 # MOVI R2, 0x2  load 2 into R2
+1b4400 # ADD R3, R2, R1  add R2 and R1, store result in R3
+f80000 # HALT  
